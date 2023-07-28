@@ -5,6 +5,23 @@
   color: #888b8d;
 }
 
+.desc {
+  display: block;
+}
+
+.phone {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .phone {
+    display: block;
+  }
+  .desc {
+    display: none;
+  }
+}
+
 /* MDBCardImage {
       padding-right: 10%;
       max-width: 100%;

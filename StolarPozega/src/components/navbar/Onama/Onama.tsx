@@ -2,30 +2,55 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./onama.css";
+import OnamaInfo from "../OnamaInfo/OnamaInfo";
+import {
+  MDBCardText,
+  MDBCardBody,
+  MDBCardImage,
+  MDBRow,
+  MDBCol,
+} from "mdb-react-ui-kit";
 const Onama = () => {
   return (
     <>
+      <OnamaInfo />
       <Container style={{ marginTop: "15px" }} className="disc">
         <Row>
           <Col>
             <section className="cu-section">
               <div className="">
                 <div className="grey-bg text-center">
-                  <p className="contactus">
-                    Ako imate bilo kakva pitanja ili želite da dobijete više
-                    informacija o određenim komadima, slobodno nas
-                    kontaktirajte.
-                  </p>
-                  <p className="contactus">
-                    {" "}
-                    Naš tim stručnjaka je spreman da vam pruži vrhunsku uslugu i
-                    odgovori na sva vaša pitanja.
-                  </p>
-                  <p className="contactus">
-                    {" "}
-                    Vaš dom je vaša priča, dopustite nam da ga zajedno napišemo.
-                    Kontaktirajte nas danas i učinite svoj dom još lepšim
-                  </p>
+                  <MDBRow className="g-0">
+                    <MDBCol md="10">
+                      <MDBCardBody>
+                        <MDBCardImage
+                          src="https://cdn-icons-png.flaticon.com/256/7636/7636754.png"
+                          alt="..."
+                          style={{
+                            maxWidth: "30%",
+                            marginLeft: "20%",
+                            marginBottom: "15px",
+                          }}
+                          fluid
+                        />{" "}
+                        <MDBCardText
+                          style={{
+                            fontSize: "15px",
+                            fontWeight: "400",
+                            marginLeft: "20%",
+                          }}
+                        >
+                          Ako imate bilo kakva pitanja ili želite da dobijete
+                          više informacija o određenim komadima, slobodno nas
+                          kontaktirajte. Naš tim stručnjaka je spreman da vam
+                          pruži vrhunsku uslugu i odgovori na sva vaša pitanja.
+                          Vaš dom je vaša priča, dopustite nam da ga zajedno
+                          napišemo. Kontaktirajte nas danas i učinite svoj dom
+                          još lepšim
+                        </MDBCardText>
+                      </MDBCardBody>
+                    </MDBCol>
+                  </MDBRow>
                 </div>
               </div>
             </section>

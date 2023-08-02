@@ -10,7 +10,7 @@ const NavBar = () => {
       {["md"].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
           <Container fluid className="container">
-            <Navbar.Brand href="#" style={{ fontSize: "30px" }}>
+            <Navbar.Brand href="/" style={{ fontSize: "30px" }}>
               Stolar Pozega
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -25,7 +25,7 @@ const NavBar = () => {
                   <Nav.Link href="/" className="links">
                     Pocetna
                   </Nav.Link>
-                  <Nav.Link href="#action2" className="links">
+                  <Nav.Link href="/proizvodi" className="links">
                     Proizvodi
                   </Nav.Link>
                   <Nav.Link href="#action2" className="links">

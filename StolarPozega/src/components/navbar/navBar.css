@@ -1,19 +1,19 @@
 .links:hover {
-  border-bottom: 1px solid rgb(63, 63, 227);
-  color: rgb(63, 63, 227);
+    border-bottom: 1px solid rgb(63, 63, 227);
+    color: rgb(63, 63, 227);
 }
 
 .links:active {
-  border-bottom: 1px solid rgb(63, 63, 227);
-  color: rgb(63, 63, 227);
+    border-bottom: 1px solid rgb(63, 63, 227);
+    color: rgb(63, 63, 227);
 }
 
 .links {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 @media (max-width: 768px) {
-  .links {
-    font-size: 15px;
-  }
+    .links {
+        font-size: 15px;
+    }
 }

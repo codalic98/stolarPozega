@@ -15,7 +15,7 @@ const NavBar = () => {
         >
           <Container fluid className="container">
             <Navbar.Brand href="/" style={{ fontSize: "30px" }}>
-              Stolar Pozega
+              Stolar Požega
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
@@ -26,8 +26,8 @@ const NavBar = () => {
               <Offcanvas.Header closeButton></Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="/" className="links active">
-                    Pocetna
+                  <Nav.Link href="/" className="links">
+                    Poetna
                   </Nav.Link>
                   <Nav.Link href="/proizvodi" className="links">
                     Proizvodi

@@ -8,14 +8,14 @@ const TreeColl = () => {
         <br />
         <Row>
           <Col xs={3} style={{ color: "inherit" }}>
-            <h1> Nasi proizvodi</h1>
+            <h1> Naši proizvodi</h1>
             <p>
               Upoznajte našu ekskluzivnu kolekciju proizvoda koja odiše
               vrhunskom kvalitetom i jedinstvenim dizajnom. Svaki proizvod je
               pažljivo odabran kako bi zadovoljio i najzahtevnije ukuse.
             </p>
             <a href="/proizvodi" className="linkVise">
-              Pogledaj vise &rarr;
+              Pogledaj više &rarr;
             </a>
           </Col>
           <Col className="d-flex flex-nowrap overflow-auto justify-content-between">
@@ -47,14 +47,14 @@ const TreeColl = () => {
         <br />
         <Col>
           <Row xs={9}>
-            <h1>Nasi proizvodi</h1>
+            <h1>Naši proizvodi</h1>
             <p>
               Upoznajte našu ekskluzivnu kolekciju proizvoda koja odiše
               vrhunskom kvalitetom i jedinstvenim dizajnom. Svaki proizvod je
               pažljivo odabran kako bi zadovoljio i najzahtevnije ukuse.
             </p>
             <a href="/proizvodi" className="linkVise">
-              Pogledaj vise &rarr;
+              Pogledaj više &rarr;
             </a>
           </Row>
           <br />

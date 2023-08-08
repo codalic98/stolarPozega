@@ -11,7 +11,6 @@ import { Container } from "react-bootstrap";
 const OnamaInfo = () => {
   return (
     <>
-      {" "}
       <Container style={{ marginTop: "66px" }} className="desc" id="o-nama">
         <MDBCard style={{ maxWidth: "100%", border: "none" }}>
           <MDBRow className="g-0">

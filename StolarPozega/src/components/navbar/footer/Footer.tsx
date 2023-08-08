@@ -21,12 +21,12 @@ const Footer = () => {
                 <h4 className="text-uppercase fw-bold mb-4">
                   <a href="/">
                     <MDBIcon color="secondary" icon="gem" className="me-3" />
-                    Stolar Pozega
+                    Stolar Požega
                   </a>
                 </h4>
                 <div className="rounded-socials">
                   <a
-                    href="https://www.facebook.com/evoplay.games"
+                    href="https://www.facebook.com/namestajpomeri.pozega"
                     className="rounded-socials_ico"
                   >
                     <img
@@ -36,7 +36,7 @@ const Footer = () => {
                   </a>
 
                   <a
-                    href="https://www.instagram.com/evoplay.games/"
+                    href="https://www.instagram.com/stolarpozega/"
                     className="rounded-socials_ico"
                   >
                     <img
@@ -51,7 +51,7 @@ const Footer = () => {
                 <h4 className="text-uppercase fw-bold mb-4">Kontakt</h4>
                 <p>
                   <MDBIcon color="secondary" icon="home" className="me-2" />
-                  Mihaila Radulovica 23, Pozega
+                  Mihaila Radulovica 23, Požega
                 </p>
                 <p>
                   <MDBIcon color="secondary" icon="envelope" className="me-3" />
@@ -74,7 +74,7 @@ const Footer = () => {
           className="text-center p-4"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
         >
-          Sva prava zadrzava, Stolar Pozega
+          Sva prava zadržava, Stolar Požega
         </div>
       </MDBFooter>
     </>

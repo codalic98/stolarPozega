@@ -1,20 +1,20 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+// import Container from "react-bootstrap/Container";
+// import Row from "react-bootstrap/Row";
+// import Col from "react-bootstrap/Col";
 import "./onama.css";
 import OnamaInfo from "../OnamaInfo/OnamaInfo";
-import {
-  MDBCardText,
-  MDBCardBody,
-  MDBCardImage,
-  MDBRow,
-  MDBCol,
-} from "mdb-react-ui-kit";
+// import {
+//   MDBCardText,
+//   MDBCardBody,
+//   MDBCardImage,
+//   MDBRow,
+//   MDBCol,
+// } from "mdb-react-ui-kit";
 const Onama = () => {
   return (
     <>
       <OnamaInfo />
-      <Container style={{ marginTop: "15px" }} className="disc">
+      {/* <Container style={{ marginTop: "15px" }} className="disc">
         <Row>
           <Col>
             <section className="cu-section">
@@ -149,9 +149,9 @@ const Onama = () => {
             </section>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
       {/*  */}
-      <Container style={{ marginTop: "15px" }} className="phone">
+      {/* <Container style={{ marginTop: "15px" }} className="phone">
         <Col>
           <Row>
             <section className="cu-section">
@@ -282,7 +282,7 @@ const Onama = () => {
             </section>
           </Row>
         </Col>
-      </Container>
+      </Container> */}
     </>
   );
 };

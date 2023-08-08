@@ -4,6 +4,10 @@ import Gallery from "../../components/navbar/Gallery/Gallery";
 const Proizvodi = () => {
   return (
     <>
+      <br />
+      <br />
+      <br />
+      <br />
       <Gallery />
     </>
   );

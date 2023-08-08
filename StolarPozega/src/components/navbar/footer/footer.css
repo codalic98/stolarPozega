@@ -1,0 +1,34 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: darkcyan;
+}
+
+.rounded-socials_ico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounded-socials_ico img {
+  width: 50%;
+  height: 50%;
+}
+
+.rounded-socials {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.rounded-socials_ico {
+  width: 52px;
+  height: 52px;
+  margin-right: 10px;
+  background: rgba(136, 139, 141, 0.08);
+  border-radius: 50%;
+}

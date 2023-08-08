@@ -1,43 +1,85 @@
 import { Col, Container, Row } from "react-bootstrap";
+import "./treecoll.css";
 const TreeColl = () => {
   return (
-    <Container>
-      <br />
-      <br />
-      <Row>
+    <>
+      <Container className="desc">
+        <br />
+        <br />
+        <Row>
+          <Col xs={3} style={{ color: "inherit" }}>
+            <h1> Nasi proizvodi</h1>
+            <p>
+              Upoznajte našu ekskluzivnu kolekciju proizvoda koja odiše
+              vrhunskom kvalitetom i jedinstvenim dizajnom. Svaki proizvod je
+              pažljivo odabran kako bi zadovoljio i najzahtevnije ukuse.
+            </p>
+            <a href="/proizvodi" className="linkVise">
+              Pogledaj vise &rarr;
+            </a>
+          </Col>
+          <Col className="d-flex flex-nowrap overflow-auto justify-content-between">
+            <img
+              className="imgSlike"
+              src="https://cb2.scene7.com/is/image/CB2/020323_super_furniture_2?wid=1000&qlt=50"
+              alt=""
+              style={{ height: "300px" }}
+            />
+
+            <img
+              className="imgSlike"
+              src="https://cb2.scene7.com/is/image/CB2/020323_super_furniture_2?wid=1000&qlt=50"
+              alt=""
+              style={{ height: "300px" }}
+            />
+
+            <img
+              className="imgSlike"
+              src="https://cb2.scene7.com/is/image/CB2/020323_super_furniture_2?wid=1000&qlt=50"
+              alt=""
+              style={{ height: "300px" }}
+            />
+          </Col>
+        </Row>
+      </Container>
+      <Container className="phone">
+        <br />
+        <br />
         <Col>
-          <h1>Ovde ide neki text</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
-            ex. Veniam natus quam, error tempora sed sint suscipit qui illum
-            cumque, illo officiis eum consequuntur voluptatem fugit atque nihil
-            excepturi!
-          </p>
-          <button>See more items</button>
+          <Row xs={9}>
+            <h1>Nasi proizvodi</h1>
+            <p>
+              Upoznajte našu ekskluzivnu kolekciju proizvoda koja odiše
+              vrhunskom kvalitetom i jedinstvenim dizajnom. Svaki proizvod je
+              pažljivo odabran kako bi zadovoljio i najzahtevnije ukuse.
+            </p>
+            <a href="/proizvodi" className="linkVise">
+              Pogledaj vise &rarr;
+            </a>
+          </Row>
+          <br />
+          <Row className="d-flex flex-nowrap overflow-auto justify-content-between">
+            <img
+              className="imgSlike"
+              src="https://cb2.scene7.com/is/image/CB2/020323_super_furniture_2?wid=1000&qlt=50"
+              alt=""
+            />
+
+            <img
+              className="imgSlike"
+              src="https://cb2.scene7.com/is/image/CB2/020323_super_furniture_2?wid=1000&qlt=50"
+              alt=""
+            />
+
+            <img
+              className="imgSlike"
+              src="https://cb2.scene7.com/is/image/CB2/020323_super_furniture_2?wid=1000&qlt=50"
+              alt=""
+            />
+          </Row>
         </Col>
-        <Col>
-          <img
-            src="https://cb2.scene7.com/is/image/CB2/020323_super_furniture_2?wid=1000&qlt=50"
-            alt=""
-            style={{ height: "300px" }}
-          />
-        </Col>
-        <Col>
-          <img
-            src="https://cb2.scene7.com/is/image/CB2/020323_super_furniture_2?wid=1000&qlt=50"
-            alt=""
-            style={{ height: "300px" }}
-          />
-        </Col>
-        <Col>
-          <img
-            src="https://cb2.scene7.com/is/image/CB2/020323_super_furniture_2?wid=1000&qlt=50"
-            alt=""
-            style={{ height: "300px" }}
-          />
-        </Col>
-      </Row>
-    </Container>
+      </Container>
+    </>
   );
 };
 

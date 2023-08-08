@@ -8,7 +8,11 @@ const NavBar = () => {
   return (
     <>
       {["md"].map((expand) => (
-        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
+        <Navbar
+          key={expand}
+          expand={expand}
+          className="bg-body-tertiary mb-3 navbar-fixed"
+        >
           <Container fluid className="container">
             <Navbar.Brand href="/" style={{ fontSize: "30px" }}>
               Stolar Pozega
@@ -22,16 +26,16 @@ const NavBar = () => {
               <Offcanvas.Header closeButton></Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="/" className="links">
+                  <Nav.Link href="/" className="links active">
                     Pocetna
                   </Nav.Link>
                   <Nav.Link href="/proizvodi" className="links">
                     Proizvodi
                   </Nav.Link>
-                  <Nav.Link href="#action2" className="links">
+                  <Nav.Link href="/#o-nama" className="links">
                     O nama
                   </Nav.Link>
-                  <Nav.Link href="#action2" className="links">
+                  <Nav.Link href="/#kontakt" className="links">
                     Kontakt
                   </Nav.Link>
                 </Nav>

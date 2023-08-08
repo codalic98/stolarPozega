@@ -12,7 +12,7 @@ const OnamaInfo = () => {
   return (
     <>
       {" "}
-      <Container style={{ marginTop: "66px" }} className="desc">
+      <Container style={{ marginTop: "66px" }} className="desc" id="o-nama">
         <MDBCard style={{ maxWidth: "100%", border: "none" }}>
           <MDBRow className="g-0">
             <MDBCol md="3" style={{ textAlign: "center" }}>
@@ -27,7 +27,7 @@ const OnamaInfo = () => {
               <MDBCardBody>
                 <MDBCardText style={{ fontSize: "15px", fontWeight: "400" }}>
                   <h1>O nama</h1>
-                  Mi smo mlada i dinamična kompanija koja je osnovana 2020.
+                  Mi smo mlada i dinamična kompanija koja je osnovana 2010.
                   godine sa strašću za proizvodnjom nameštaja koji će uneti
                   radost i udobnost u domove naših kupaca. Od samog početka,
                   posvećeni smo kvalitetu, inovacijama i jedinstvenom dizajnu,
@@ -131,14 +131,14 @@ const OnamaInfo = () => {
         </MDBCard>
       </Container>
       {/*  */}
-      <Container style={{ marginTop: "30px" }} className="phone">
+      <Container style={{ marginTop: "30px" }} className="phone" id="o-nama">
         <MDBCard style={{ maxWidth: "100%", border: "none" }}>
           <MDBRow className="g-0">
             <MDBCol md="3" style={{ textAlign: "center" }}>
               <MDBCardImage
                 src="https://cdn-icons-png.flaticon.com/256/6663/6663877.png"
                 alt="..."
-                style={{ maxWidth: "66%" }}
+                style={{ maxWidth: "50%" }}
                 fluid
               />
             </MDBCol>
@@ -146,7 +146,7 @@ const OnamaInfo = () => {
               <MDBCardBody>
                 <MDBCardText style={{ fontSize: "15px", fontWeight: "400" }}>
                   <h1>O nama</h1>
-                  Mi smo mlada i dinamična kompanija koja je osnovana 2020.
+                  Mi smo mlada i dinamična kompanija koja je osnovana 2010.
                   godine sa strašću za proizvodnjom nameštaja koji će uneti
                   radost i udobnost u domove naših kupaca. Od samog početka,
                   posvećeni smo kvalitetu, inovacijama i jedinstvenom dizajnu,
@@ -161,7 +161,7 @@ const OnamaInfo = () => {
               <MDBCardImage
                 src="https://cdn-icons-png.flaticon.com/256/4860/4860854.png"
                 alt="..."
-                style={{ maxWidth: "66%" }}
+                style={{ maxWidth: "50%" }}
                 fluid
               />
             </MDBCol>
@@ -183,7 +183,7 @@ const OnamaInfo = () => {
               <MDBCardImage
                 src="https://cdn-icons-png.flaticon.com/256/7851/7851084.png"
                 alt="..."
-                style={{ maxWidth: "66%" }}
+                style={{ maxWidth: "50%" }}
                 fluid
               />
             </MDBCol>
@@ -206,7 +206,7 @@ const OnamaInfo = () => {
               <MDBCardImage
                 src="https://cdn-icons-png.flaticon.com/256/4392/4392541.png"
                 alt="..."
-                style={{ maxWidth: "66%" }}
+                style={{ maxWidth: "50%" }}
                 fluid
               />
             </MDBCol>
@@ -229,7 +229,7 @@ const OnamaInfo = () => {
               <MDBCardImage
                 src="https://cdn-icons-png.flaticon.com/256/4593/4593624.png"
                 alt="..."
-                style={{ maxWidth: "66%" }}
+                style={{ maxWidth: "50%" }}
                 fluid
               />
             </MDBCol>

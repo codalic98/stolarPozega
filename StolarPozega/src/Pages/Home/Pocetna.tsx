@@ -6,9 +6,13 @@ import "./pocetna.css";
 const Pocetna = () => {
   return (
     <>
+      <br />
+      <br />
+      <br />
       <CorouselPocetna />
       <TreeColl />
       {/* <Usluge /> */}
+
       <Onama />
     </>
   );

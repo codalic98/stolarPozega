@@ -5,48 +5,50 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
+import "./footer.css";
 const Footer = () => {
   return (
     <>
       <MDBFooter
         bgColor="light"
         className="text-center text-lg-start text-muted"
+        id="kontakt"
       >
-        {/* <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-          <div>
-            <a href="" className="me-4 text-reset">
-              <MDBIcon color="secondary" fab icon="facebook-f" />
-            </a>
-            <a href="" className="me-4 text-reset">
-              <MDBIcon color="secondary" fab icon="twitter" />
-            </a>
-            <a href="" className="me-4 text-reset">
-              <MDBIcon color="secondary" fab icon="google" />
-            </a>
-            <a href="" className="me-4 text-reset">
-              <MDBIcon color="secondary" fab icon="instagram" />
-            </a>
-            <a href="" className="me-4 text-reset">
-              <MDBIcon color="secondary" fab icon="linkedin" />
-            </a>
-            <a href="" className="me-4 text-reset">
-              <MDBIcon color="secondary" fab icon="github" />
-            </a>
-          </div>
-        </section> */}
-
         <section className="">
           <MDBContainer className="text-center text-md-start mt-5">
             <MDBRow className="mt-3">
-              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  <MDBIcon color="secondary" icon="gem" className="me-3" />
-                  Stolar Pozega
-                </h6>
+              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4  ">
+                <h4 className="text-uppercase fw-bold mb-4">
+                  <a href="/">
+                    <MDBIcon color="secondary" icon="gem" className="me-3" />
+                    Stolar Pozega
+                  </a>
+                </h4>
+                <div className="rounded-socials">
+                  <a
+                    href="https://www.facebook.com/evoplay.games"
+                    className="rounded-socials_ico"
+                  >
+                    <img
+                      src="https://evoplay.games/wp-content/themes/evoplay/assets/img/icons/facebook-gray.svg"
+                      alt=""
+                    />
+                  </a>
+
+                  <a
+                    href="https://www.instagram.com/evoplay.games/"
+                    className="rounded-socials_ico"
+                  >
+                    <img
+                      src="https://evoplay.games/wp-content/themes/evoplay/assets/img/icons/insta-gray.svg"
+                      alt=""
+                    />
+                  </a>
+                </div>
               </MDBCol>
 
               <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Kontakt</h6>
+                <h4 className="text-uppercase fw-bold mb-4">Kontakt</h4>
                 <p>
                   <MDBIcon color="secondary" icon="home" className="me-2" />
                   Mihaila Radulovica 23, Pozega

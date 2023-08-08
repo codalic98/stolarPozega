@@ -1,0 +1,49 @@
+.linkVise {
+  text-decoration: none;
+  color: rgb(94, 94, 224);
+}
+
+p {
+  color: #9a9a9a;
+}
+
+h1 {
+  color: #9a9a9a;
+}
+
+.linkVise:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+
+.imgSlike {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.desc {
+  display: block;
+}
+
+.phone {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desc {
+    display: none;
+  }
+  .phone {
+    display: block;
+  }
+  .imgSlike {
+    width: 50%;
+    height: 200px !important;
+    margin: 10px 0px 10px 0px;
+    border-radius: 22px;
+  }
+  .linkVise {
+    display: flex;
+    justify-content: center;
+  }
+}

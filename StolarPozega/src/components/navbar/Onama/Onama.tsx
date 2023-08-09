@@ -2,7 +2,6 @@
 // import Row from "react-bootstrap/Row";
 // import Col from "react-bootstrap/Col";
 import "./onama.css";
-import OnamaInfo from "../OnamaInfo/OnamaInfo";
 // import {
 //   MDBCardText,
 //   MDBCardBody,
@@ -13,7 +12,6 @@ import OnamaInfo from "../OnamaInfo/OnamaInfo";
 const Onama = () => {
   return (
     <>
-      <OnamaInfo />
       {/* <Container style={{ marginTop: "15px" }} className="disc">
         <Row>
           <Col>

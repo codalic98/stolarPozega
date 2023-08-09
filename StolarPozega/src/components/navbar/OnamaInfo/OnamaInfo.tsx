@@ -11,7 +11,7 @@ import { Container } from "react-bootstrap";
 const OnamaInfo = () => {
   return (
     <>
-      <Container style={{ marginTop: "66px" }} className="desc" id="o-nama">
+      <Container style={{ marginTop: "66px" }} className="desc">
         <MDBCard style={{ maxWidth: "100%", border: "none" }}>
           <MDBRow className="g-0">
             <MDBCol md="3" style={{ textAlign: "center" }}>
@@ -130,7 +130,7 @@ const OnamaInfo = () => {
         </MDBCard>
       </Container>
       {/*  */}
-      <Container style={{ marginTop: "30px" }} className="phone" id="o-nama">
+      <Container style={{ marginTop: "30px" }} className="phone">
         <MDBCard style={{ maxWidth: "100%", border: "none" }}>
           <MDBRow className="g-0">
             <MDBCol md="3" style={{ textAlign: "center" }}>

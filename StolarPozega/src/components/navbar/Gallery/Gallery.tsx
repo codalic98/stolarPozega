@@ -133,7 +133,7 @@ const Gallery = () => {
         <br />
         <Col style={{ height: "auto" }}>
           <nav className="nav d-flex flex-nowrap overflow-auto justify-content-between">
-            <a className="nav-link active" href="#">
+            <a className="nav-link" href="#">
               Stolice
             </a>
             <a className="nav-link" href="#">

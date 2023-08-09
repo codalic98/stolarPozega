@@ -15,12 +15,12 @@ const Footer = () => {
         id="kontakt"
       >
         <section className="">
-          <MDBContainer className="text-center text-md-start mt-5">
+          <MDBContainer className="text-center text-md-center mt-5">
             <MDBRow className="mt-3">
               <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4  ">
                 <h4 className="text-uppercase fw-bold mb-4">
                   <a href="/">
-                    <MDBIcon color="secondary" icon="gem" className="me-3" />
+                    <MDBIcon color="secondary" icon="gem" className="me-8" />
                     Stolar Požega
                   </a>
                 </h4>

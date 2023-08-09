@@ -1,100 +1,103 @@
 /* Add this CSS for the zoom effect */
 
 .hover-zoom img {
-  transition: transform 0.3s ease;
-  margin-bottom: 20px;
-  border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .nav {
-  white-space: nowrap;
-  overflow-x: hidden;
+    white-space: nowrap;
+    overflow-x: hidden;
 }
 
 .active {
-  color: blue !important;
+    color: darkcyan !important;
 }
 
 .nav-link:hover {
-  color: darkcyan !important;
-  border-bottom: 1px solid darkcyan;
-  padding-bottom: 2px;
+    color: darkcyan !important;
+    border-bottom: 1px solid darkcyan;
+    padding-bottom: 2px;
 }
 
 .nav-link:active {
-  color: darkcyan !important;
-  border-bottom: 1px solid darkcyan;
+    color: darkcyan !important;
+    border-bottom: 1px solid darkcyan;
 }
 
 .nav-link {
-  color: #888b8d !important;
-  font-size: 14px;
-  border-radius: 1px solid black;
-  white-space: nowrap;
-  text-transform: uppercase;
-  padding: 8px 15px 6px 15px;
-  transition: 0.2s;
-  text-decoration: none !important;
+    color: #888b8d !important;
+    font-size: 14px;
+    border-radius: 1px solid black;
+    white-space: nowrap;
+    text-transform: uppercase;
+    padding: 8px 15px 6px 15px;
+    transition: 0.2s;
+    text-decoration: none !important;
 }
 
 .me-2 {
-  width: 200px !important;
-  position: relative;
-  background-color: #f9f9f9;
+    width: 200px !important;
+    position: relative;
+    background-color: #f9f9f9;
 }
 
 @media (min-width: 320px) and (max-width: 994px) {
-  .nav {
-    overflow-x: auto;
-  }
-  .nav-link {
-    font-size: 16px !important;
-  }
+    .nav {
+        overflow-x: auto;
+    }
+    .nav-link {
+        font-size: 21px !important;
+    }
 }
 
 .desc {
-  display: block;
+    display: block;
 }
 
 .phone {
-  display: none;
+    display: none;
 }
 
 .hover-zoom img:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
+
 
 /* Add this CSS for the fade-in animation */
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 768px) {
-  .desc {
-    display: none;
-  }
-  .phone {
-    display: block;
-  }
+    .desc {
+        display: none;
+    }
+    .phone {
+        display: block;
+    }
 }
 
 .Image {
-  animation: fadeIn 1s ease forwards;
-  /* Apply the fadeIn animation to the images */
+    animation: fadeIn 1s ease forwards;
+    /* Apply the fadeIn animation to the images */
 }
+
 
 /* Optionally, you can add the same animation to the ListGroup and Pagination components for a consistent effect */
 
 .ListGroup,
 .Pagination {
-  animation: fadeIn 1s ease forwards;
-  background-color: darkcyan;
+    animation: fadeIn 1s ease forwards;
+    background-color: darkcyan;
 }
+
 
 /* You can further customize the animation by adjusting the duration, timing function, and other animation properties as needed. */

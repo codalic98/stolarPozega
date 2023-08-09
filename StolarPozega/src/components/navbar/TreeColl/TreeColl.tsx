@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./treecoll.css";
+import { NavLink } from "react-router-dom";
 const TreeColl = () => {
   return (
     <>
@@ -14,9 +15,9 @@ const TreeColl = () => {
               vrhunskom kvalitetom i jedinstvenim dizajnom. Svaki proizvod je
               pažljivo odabran kako bi zadovoljio i najzahtevnije ukuse.
             </p>
-            <a href="/proizvodi" className="linkVise">
+            <NavLink to={"/proizvodi"} className="linkVise">
               Pogledaj više &rarr;
-            </a>
+            </NavLink>
           </Col>
           <Col className="d-flex flex-nowrap overflow-auto justify-content-between">
             <img
@@ -53,9 +54,9 @@ const TreeColl = () => {
               vrhunskom kvalitetom i jedinstvenim dizajnom. Svaki proizvod je
               pažljivo odabran kako bi zadovoljio i najzahtevnije ukuse.
             </p>
-            <a href="/proizvodi" className="linkVise">
+            <NavLink to={"/proizvodi"} className="linkVise">
               Pogledaj više &rarr;
-            </a>
+            </NavLink>
           </Row>
           <br />
           <Row className="d-flex flex-nowrap overflow-auto justify-content-between">

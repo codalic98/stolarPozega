@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   Container,
   Nav,
@@ -7,7 +8,14 @@ import {
 } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import "./navBar.css";
+
 const NavBar = () => {
+  const [offcanvasOpen, setOffcanvasOpen] = useState(false);
+
+  const closeOffcanvas = () => {
+    setOffcanvasOpen(false);
+  };
+
   return (
     <>
       {["md"].map((expand) => (
@@ -20,32 +28,35 @@ const NavBar = () => {
             <NavbarBrand href="/" style={{ fontSize: "30px" }}>
               Stolar Požega
             </NavbarBrand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Toggle
+              aria-controls={`offcanvasNavbar-expand-${expand}`}
+              onClick={() => setOffcanvasOpen(!offcanvasOpen)}
+            />
             <Navbar.Offcanvas
+              show={offcanvasOpen}
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
-              <Offcanvas.Header closeButton></Offcanvas.Header>
+              <Offcanvas.Header closeButton onClick={closeOffcanvas} />
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <NavLink to={"/"} className="links">
+                  <NavLink to={"/"} className="links" onClick={closeOffcanvas}>
                     Početna
                   </NavLink>
-                  <NavLink to={"/proizvodi"} className="links">
+                  <NavLink
+                    to={"/proizvodi"}
+                    className="links"
+                    onClick={closeOffcanvas}
+                  >
                     Proizvodi
                   </NavLink>
                   <NavLink
-                    to={{ pathname: "/", hash: "o-nama" }}
+                    to={{ pathname: "o-nama" }}
                     className="links"
+                    onClick={closeOffcanvas}
                   >
                     O nama
-                  </NavLink>
-                  <NavLink
-                    to={{ pathname: "/", hash: "kontakt" }}
-                    className="links"
-                  >
-                    Kontakt
                   </NavLink>
                 </Nav>
               </Offcanvas.Body>
